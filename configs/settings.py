@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 
 from .additional_configs import *
@@ -10,10 +9,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'django-insecure-a!zerq!1^dcf0lafd3p04ifh04nrlmi&1v+s362ub*vd-+r_s#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG')
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -63,11 +62,11 @@ WSGI_APPLICATION = 'configs.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ.get('MYSQL_DATABASE'),
-        'USER': os.environ.get('MYSQL_USER'),
-        'PASSWORD': os.environ.get('MYSQL_PASSWORD'),
-        'HOST': os.environ.get('MYSQL_HOST'),
-        'PORT': os.environ.get('MYSQL_PORT')
+        'NAME': 'mycars',
+        'USER': 'root',
+        'PASSWORD': 'vanyaparolroot1',
+        'HOST': 'localhost',
+        'PORT': 3306
     }
 }
 

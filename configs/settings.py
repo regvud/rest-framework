@@ -1,5 +1,7 @@
 from pathlib import Path
 
+from .additional_configs import *
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -15,14 +17,17 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 # Application definition
-
+AUTH_USER_MODEL = 'users.UserModel'
 INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
 
     # MY_APPS
+    'apps.auth',
+    'apps.users',
     'apps.my_cars',
+    'apps.parks',
     'core',
 ]
 

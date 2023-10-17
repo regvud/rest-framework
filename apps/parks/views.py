@@ -1,4 +1,5 @@
 from rest_framework import generics, status
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
 from apps.my_cars.serializers import CarSerializer
@@ -10,6 +11,7 @@ from apps.parks.serializers import ParkSerializer
 class ParkListCreateView(generics.ListCreateAPIView):
     serializer_class = ParkSerializer
     queryset = ParkModel.objects.all()
+    permission_classes = (IsAuthenticated,)
 
 
 class ParkRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):

@@ -1,4 +1,5 @@
 from rest_framework import generics
+from rest_framework.permissions import IsAuthenticated
 
 from apps.my_cars.models import CarModel
 from apps.my_cars.serializers import CarSerializer
@@ -8,6 +9,7 @@ from apps.my_cars.serializers import CarSerializer
 class CarListView(generics.ListAPIView):
     serializer_class = CarSerializer
     queryset = CarModel.objects.all()
+    permission_classes = (IsAuthenticated,)
 
 
 class CarRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):

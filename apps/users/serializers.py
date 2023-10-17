@@ -33,4 +33,5 @@ class UserSerializer(serializers.ModelSerializer):
     def create(self, validated_data: dict):
         profile = validated_data.pop('profile')
         profile = ProfileModel.objects.create(**profile)
-        pass
+        user = UserModel.objects.create_user(profile=profile, **validated_data)
+        return user

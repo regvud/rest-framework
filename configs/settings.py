@@ -1,5 +1,9 @@
 from pathlib import Path
 
+import django
+
+from configs.additional_configs import *
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -15,14 +19,17 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 # Application definition
-
+AUTH_USER_MODEL = 'users.UserModel'
 INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
+    'rest_framework_simplejwt.token_blacklist',
 
     # MY_APPS
-    'apps.my_cars',
+    'apps.auth',
+    'apps.users',
+    'apps.cars',
     'core',
 ]
 
@@ -57,7 +64,7 @@ WSGI_APPLICATION = 'configs.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mycars',
+        'NAME': 'alt_cars',
         'USER': 'root',
         'PASSWORD': 'vanyaparolroot1',
         'HOST': 'localhost',

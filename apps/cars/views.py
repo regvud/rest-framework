@@ -6,7 +6,7 @@ from apps.cars.serializers import CarSerializer
 
 
 # Create your views here.
-class CarListCreateView(generics.ListCreateAPIView):
+class CarListCreateView(generics.ListAPIView):
     serializer_class = CarSerializer
     queryset = CarModel.objects.all()
     permission_classes = (IsAuthenticated,)

@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'apps.auth',
     'apps.users',
     'apps.cars',
+    'apps.parks',
     'core',
 ]
 

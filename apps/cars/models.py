@@ -1,5 +1,7 @@
 from django.db import models
 
+from apps.parks.models import ParkModel
+
 from core.models import BaseModel
 
 
@@ -11,3 +13,4 @@ class CarModel(BaseModel):
     brand = models.CharField(max_length=30)
     year = models.IntegerField()
     price = models.IntegerField()
+    park = models.ForeignKey(ParkModel, on_delete=models.CASCADE, related_name='cars')

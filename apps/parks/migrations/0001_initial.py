@@ -12,17 +12,15 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='CarModel',
+            name='ParkModel',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('brand', models.CharField(max_length=30)),
-                ('year', models.IntegerField()),
-                ('price', models.IntegerField()),
+                ('park', models.CharField(max_length=30, unique=True)),
                 ('created_at', models.DateTimeField(auto_now=True)),
                 ('updated_at', models.DateTimeField(auto_now_add=True)),
             ],
             options={
-                'db_table': 'cars',
+                'db_table': 'parks',
             },
         ),
     ]

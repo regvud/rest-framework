@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
 import os
 from pathlib import Path
 
@@ -28,11 +27,16 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 # Application definition
-
+AUTH_USER_MODEL = 'users.UserModel'
 INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
+
+    # my_apps
+    'apps.users',
+    'core'
+
 ]
 
 MIDDLEWARE = [
@@ -70,7 +74,7 @@ DATABASES = {
         'USER': os.environ.get('MYSQL_USER'),
         'PASSWORD': os.environ.get('MYSQL_PASSWORD'),
         'HOST': os.environ.get('MYSQL_HOST'),
-        'PORT': os.environ.get('MYSQL_PORT'),
+        'PORT': os.environ.get('MYSQL_PORT')
     }
 }
 
@@ -112,4 +116,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-TRAILING_SLASH = True
+TRAILING_SLASH = False

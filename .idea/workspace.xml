@@ -4,23 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c5cbd4a-0af8-4601-93eb-e0aecdb6f95b" name="Changes" comment=".env created">
-      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/my_cars/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/my_cars/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/my_cars/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/my_cars/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/my_cars/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/my_cars/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/my_cars/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/my_cars/views.py" beforeDir="false" />
+    <list default="true" id="4c5cbd4a-0af8-4601-93eb-e0aecdb6f95b" name="Changes" comment="dwqdwqdwqdwqdwqdwq">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt3.qrstAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt3.qrstAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt_cars.9VvOeA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt_cars.9VvOeA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rest-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rest-framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +78,9 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -89,11 +102,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "alter3",
+    "last_opened_file_path": "C:/coding/python/rest-framework/configs/settings.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
+    "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -167,6 +181,7 @@
       <workItem from="1697696132703" duration="560000" />
       <workItem from="1697696708367" duration="337000" />
       <workItem from="1697697059143" duration="1033000" />
+      <workItem from="1697699752470" duration="2835000" />
     </task>
     <task id="LOCAL-00001" summary=".idea ignore">
       <option name="closed" value="true" />

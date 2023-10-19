@@ -8,6 +8,7 @@ import dotenv
 
 def main():
     """Run administrative tasks."""
+
     dotenv.read_dotenv()
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'configs.settings')
     try:
@@ -20,6 +21,5 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
-
-if __name__ == '__main__':
-    main()
+    if __name__ == '__main__':
+        main()

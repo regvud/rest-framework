@@ -4,32 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c5cbd4a-0af8-4601-93eb-e0aecdb6f95b" name="Changes" comment="dwqdwqdwqdwqdwqdwq">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="4c5cbd4a-0af8-4601-93eb-e0aecdb6f95b" name="Changes" comment="superuser created">
+      <change afterPath="$PROJECT_DIR$/apps/auth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/auth/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/auth/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/auth/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cars/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cars/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cars/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cars/migrations/0002_carmodel_park_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cars/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cars/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cars/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cars/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cars/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/parks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/parks/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/parks/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/parks/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/parks/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/parks/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/parks/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/parks/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0002_alter_usermodel_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/additional_configs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/additional_configs/jwt_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/additional_configs/rest_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/dataclasses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/dataclasses/user_dataclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt3.qrstAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt3.qrstAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt_cars.9VvOeA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt_cars.9VvOeA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rest-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rest-framework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0002_alter_usermodel_is_active_alter_usermodel_is_staff_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +195,7 @@
       <workItem from="1697696132703" duration="560000" />
       <workItem from="1697696708367" duration="337000" />
       <workItem from="1697697059143" duration="1033000" />
-      <workItem from="1697699752470" duration="2835000" />
+      <workItem from="1697699752470" duration="16698000" />
     </task>
     <task id="LOCAL-00001" summary=".idea ignore">
       <option name="closed" value="true" />
@@ -327,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697695469866</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="superuser created">
+      <option name="closed" value="true" />
+      <created>1697702860360</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1697702860360</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +380,7 @@
     <MESSAGE value=" do not forget to put .env in manage.py!" />
     <MESSAGE value="alt2 auth" />
     <MESSAGE value=".env created" />
-    <option name="LAST_COMMIT_MESSAGE" value=".env created" />
+    <MESSAGE value="superuser created" />
+    <option name="LAST_COMMIT_MESSAGE" value="superuser created" />
   </component>
 </project>

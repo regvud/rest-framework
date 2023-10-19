@@ -6,6 +6,16 @@ from core.models import BaseModel
 from .managers import UserManager
 
 
+class ProfileModel(BaseModel):
+    class Meta:
+        db_table = 'profiles'
+        ordering = ('id',)
+
+    name = models.CharField(max_length=20)
+    surname = models.CharField(max_length=20)
+    age = models.CharField(max_length=20)
+
+
 class UserModel(AbstractBaseUser, PermissionsMixin, BaseModel):
     class Meta:
         db_table = 'auth_users'
@@ -16,6 +26,7 @@ class UserModel(AbstractBaseUser, PermissionsMixin, BaseModel):
     is_superuser = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=True)
     is_active = models.BooleanField(default=True)
+    profile = models.OneToOneField(ProfileModel, on_delete=models.CASCADE, related_name='user', null=True)
 
     USERNAME_FIELD = 'email'
 

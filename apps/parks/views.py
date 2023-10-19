@@ -13,7 +13,10 @@ from .serializers import ParkSerializer
 class ParkListCreateView(generics.ListCreateAPIView):
     serializer_class = ParkSerializer
     queryset = ParkModel.objects.all()
-    permission_classes = (IsAuthenticated,)
+
+    def get_permissions(self, *args, **kwargs):
+        if self.request.method == 'POST':
+            pass
 
 
 class ParkRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):

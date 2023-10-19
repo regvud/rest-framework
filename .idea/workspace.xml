@@ -4,47 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c5cbd4a-0af8-4601-93eb-e0aecdb6f95b" name="Changes" comment="superuser created">
-      <change afterPath="$PROJECT_DIR$/apps/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/auth/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/auth/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/auth/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cars/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cars/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cars/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cars/migrations/0002_carmodel_park_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cars/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cars/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cars/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cars/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/cars/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/parks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/parks/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/parks/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/parks/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/parks/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/parks/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/parks/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/parks/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0002_alter_usermodel_profile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/additional_configs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/additional_configs/jwt_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/additional_configs/rest_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/dataclasses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/dataclasses/user_dataclass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/permissions.py" afterDir="false" />
+    <list default="true" id="4c5cbd4a-0af8-4601-93eb-e0aecdb6f95b" name="Changes" comment="do permissions">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt3.qrstAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt3.qrstAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0002_alter_usermodel_is_active_alter_usermodel_is_staff_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,29 +71,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
-    "Notification.DoNotAsk-Database detector": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "alter3",
-    "last_opened_file_path": "C:/coding/python/rest-framework/configs/settings.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "watcher.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
+    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;alter3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/coding/python/rest-framework/configs/settings.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\coding\python\rest-framework\apps" />
@@ -195,7 +159,8 @@
       <workItem from="1697696132703" duration="560000" />
       <workItem from="1697696708367" duration="337000" />
       <workItem from="1697697059143" duration="1033000" />
-      <workItem from="1697699752470" duration="16698000" />
+      <workItem from="1697699752470" duration="16768000" />
+      <workItem from="1697729544947" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary=".idea ignore">
       <option name="closed" value="true" />
@@ -349,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697702860360</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="do permissions">
+      <option name="closed" value="true" />
+      <created>1697723698140</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697723698140</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,6 +354,7 @@
     <MESSAGE value="alt2 auth" />
     <MESSAGE value=".env created" />
     <MESSAGE value="superuser created" />
-    <option name="LAST_COMMIT_MESSAGE" value="superuser created" />
+    <MESSAGE value="do permissions" />
+    <option name="LAST_COMMIT_MESSAGE" value="do permissions" />
   </component>
 </project>

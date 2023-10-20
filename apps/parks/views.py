@@ -1,5 +1,5 @@
 from rest_framework import generics
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import BasePermission, IsAuthenticated
 from rest_framework.response import Response
 
 from core.permissions import IsAdminOrWriteOnly
@@ -14,15 +14,20 @@ class ParkListCreateView(generics.ListCreateAPIView):
     serializer_class = ParkSerializer
     queryset = ParkModel.objects.all()
 
-    def get_permissions(self, *args, **kwargs):
-        if self.request.method == 'POST':
-            pass
+    def get_permissions(self):
+        if self.request.method == 'GET':
+            return (IsAuthenticated(),)
+        return (IsAdminOrWriteOnly(),)
 
 
 class ParkRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = ParkSerializer
     queryset = ParkModel.objects.all()
-    permission_classes = (IsAdminOrWriteOnly,)
+
+    def get_permissions(self):
+        if self.request.method == 'GET':
+            return (IsAuthenticated(),)
+        return (IsAdminOrWriteOnly(),)
 
 
 class ParkCreateCarView(generics.CreateAPIView):

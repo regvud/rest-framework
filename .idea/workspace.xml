@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c5cbd4a-0af8-4601-93eb-e0aecdb6f95b" name="Changes" comment="do permissions" />
+    <list default="true" id="4c5cbd4a-0af8-4601-93eb-e0aecdb6f95b" name="Changes" comment="do permissions">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt3.qrstAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt3.qrstAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/parks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/parks/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +162,8 @@
       <workItem from="1697696708367" duration="337000" />
       <workItem from="1697697059143" duration="1033000" />
       <workItem from="1697699752470" duration="16768000" />
-      <workItem from="1697729544947" duration="647000" />
+      <workItem from="1697729544947" duration="678000" />
+      <workItem from="1697823125149" duration="9548000" />
     </task>
     <task id="LOCAL-00001" summary=".idea ignore">
       <option name="closed" value="true" />
@@ -325,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697730190199</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="do permissions">
+      <option name="closed" value="true" />
+      <created>1697741991960</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1697741991960</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

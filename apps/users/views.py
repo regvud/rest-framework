@@ -20,6 +20,11 @@ class UserListCreateView(generics.ListCreateAPIView):
         return (IsAdminOrWriteOnly(),)
 
 
+class UserRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = UserSerializer
+    queryset = UserModel.objects.all()
+
+
 class ProfileListView(generics.ListAPIView):
     serializer_class = ProfileSerializer
     queryset = ProfileModel.objects.all()

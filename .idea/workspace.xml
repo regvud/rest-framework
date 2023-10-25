@@ -4,13 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c5cbd4a-0af8-4601-93eb-e0aecdb6f95b" name="Changes" comment="do permissions">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt3.qrstAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt3.qrstAA.meta" afterDir="false" />
+    <list default="true" id="4c5cbd4a-0af8-4601-93eb-e0aecdb6f95b" name="Changes" comment="do images">
+      <change afterPath="$PROJECT_DIR$/apps/emails/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/emails/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/emails/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/emails/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/emails/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/emails/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0003_alter_usermodel_is_active_alter_usermodel_is_staff_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/additional_configs/email_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/enums/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/enums/jwt_enum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/services/email_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/services/jwt_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rest-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rest-framework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/parks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/parks/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/additional_configs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/additional_configs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -76,6 +98,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
     &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -163,7 +186,11 @@
       <workItem from="1697697059143" duration="1033000" />
       <workItem from="1697699752470" duration="16768000" />
       <workItem from="1697729544947" duration="678000" />
-      <workItem from="1697823125149" duration="9548000" />
+      <workItem from="1697823125149" duration="9864000" />
+      <workItem from="1697839933694" duration="190000" />
+      <workItem from="1698224585900" duration="9000" />
+      <workItem from="1698226464837" duration="4854000" />
+      <workItem from="1698231964198" duration="2190000" />
     </task>
     <task id="LOCAL-00001" summary=".idea ignore">
       <option name="closed" value="true" />
@@ -341,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697741991960</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="do images">
+      <option name="closed" value="true" />
+      <created>1697835813893</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1697835813894</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +409,7 @@
     <MESSAGE value=".env created" />
     <MESSAGE value="superuser created" />
     <MESSAGE value="do permissions" />
-    <option name="LAST_COMMIT_MESSAGE" value="do permissions" />
+    <MESSAGE value="do images" />
+    <option name="LAST_COMMIT_MESSAGE" value="do images" />
   </component>
 </project>

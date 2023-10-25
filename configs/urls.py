@@ -21,4 +21,5 @@ urlpatterns = [
     path('cars', include('apps.cars.urls')),
     path('parks', include('apps.parks.urls')),
     path('auth', include('apps.auth.urls')),
+    path('emails', include('apps.emails.urls')),
 ]

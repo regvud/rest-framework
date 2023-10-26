@@ -4,34 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c5cbd4a-0af8-4601-93eb-e0aecdb6f95b" name="Changes" comment="do images">
-      <change afterPath="$PROJECT_DIR$/apps/emails/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/emails/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/emails/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/emails/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/emails/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/emails/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0003_alter_usermodel_is_active_alter_usermodel_is_staff_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/additional_configs/email_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/enums/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/enums/jwt_enum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/services/email_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/services/jwt_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/test_email.html" afterDir="false" />
+    <list default="true" id="8e2b8e47-cc77-4205-93fe-563695f76b48" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt3.qrstAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt3.qrstAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt_cars.9VvOeA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/alt_cars.9VvOeA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/mycars.y9LXwA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5199b16-03e0-444c-9f39-a73828ecf59b/storage_v2/_src_/schema/mycars.y9LXwA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rest-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rest-framework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/additional_configs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/additional_configs/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +23,6 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -57,75 +31,33 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;regvud&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="49fc78f5-7c5b-4a1b-9179-d568d386ba36" />
-        <option name="url" value="https://github.com/regvud/rest-framework.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/apps/users/managers.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/pagination.py" root0="SKIP_INSPECTION" />
-  </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2WplPQOk2PFeoZd3YARaMF8FhtS" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2XIR4TTnvMHCySEmEsBPmNLvu49" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
-    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;alter3&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/coding/python/rest-framework/configs/settings.py&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "alter3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\coding\python\rest-framework\apps" />
-      <recent name="C:\coding\python\rest-framework\configs" />
-      <recent name="C:\coding\python\rest-framework\configs\rest_config" />
-    </key>
-  </component>
+}]]></component>
   <component name="RunManager">
     <configuration name="rest-framework" type="Python.DjangoServer" factoryName="Django server">
       <module name="rest-framework" />
@@ -154,262 +86,22 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4c5cbd4a-0af8-4601-93eb-e0aecdb6f95b" name="Changes" comment="" />
-      <created>1697437378551</created>
+      <changelist id="8e2b8e47-cc77-4205-93fe-563695f76b48" name="Changes" comment="" />
+      <created>1698314417089</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697437378551</updated>
-      <workItem from="1697437380426" duration="12805000" />
-      <workItem from="1697466819398" duration="156000" />
-      <workItem from="1697466984068" duration="534000" />
-      <workItem from="1697467531999" duration="38000" />
-      <workItem from="1697467580732" duration="480000" />
-      <workItem from="1697468073791" duration="973000" />
-      <workItem from="1697469415948" duration="51000" />
-      <workItem from="1697469484848" duration="40000" />
-      <workItem from="1697469593661" duration="30000" />
-      <workItem from="1697469837775" duration="509000" />
-      <workItem from="1697470358851" duration="137000" />
-      <workItem from="1697470539916" duration="413000" />
-      <workItem from="1697470964689" duration="119000" />
-      <workItem from="1697544727345" duration="15474000" />
-      <workItem from="1697574913170" duration="4107000" />
-      <workItem from="1697579068081" duration="31000" />
-      <workItem from="1697579105642" duration="1530000" />
-      <workItem from="1697615164360" duration="3306000" />
-      <workItem from="1697618488039" duration="4228000" />
-      <workItem from="1697665661993" duration="1098000" />
-      <workItem from="1697694299843" duration="177000" />
-      <workItem from="1697694486612" duration="1142000" />
-      <workItem from="1697696132703" duration="560000" />
-      <workItem from="1697696708367" duration="337000" />
-      <workItem from="1697697059143" duration="1033000" />
-      <workItem from="1697699752470" duration="16768000" />
-      <workItem from="1697729544947" duration="678000" />
-      <workItem from="1697823125149" duration="9864000" />
-      <workItem from="1697839933694" duration="190000" />
-      <workItem from="1698224585900" duration="9000" />
-      <workItem from="1698226464837" duration="4854000" />
-      <workItem from="1698231964198" duration="2190000" />
+      <updated>1698314417089</updated>
+      <workItem from="1698314419069" duration="427000" />
+      <workItem from="1698314856987" duration="270000" />
+      <workItem from="1698315161020" duration="1177000" />
+      <workItem from="1698316430296" duration="2055000" />
+      <workItem from="1698318532640" duration="457000" />
+      <workItem from="1698319003350" duration="558000" />
+      <workItem from="1698323687981" duration="1269000" />
     </task>
-    <task id="LOCAL-00001" summary=".idea ignore">
-      <option name="closed" value="true" />
-      <created>1697437403181</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1697437403181</updated>
-    </task>
-    <task id="LOCAL-00002" summary="master setup">
-      <option name="closed" value="true" />
-      <created>1697437599717</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1697437599717</updated>
-    </task>
-    <task id="LOCAL-00003" summary="filters + validatots toDO">
-      <option name="closed" value="true" />
-      <created>1697442601703</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1697442601703</updated>
-    </task>
-    <task id="LOCAL-00004" summary="continue">
-      <option name="closed" value="true" />
-      <created>1697466584379</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1697466584379</updated>
-    </task>
-    <task id="LOCAL-00005" summary="setup +">
-      <option name="closed" value="true" />
-      <created>1697544777748</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1697544777748</updated>
-    </task>
-    <task id="LOCAL-00006" summary="less5_auth">
-      <option name="closed" value="true" />
-      <created>1697550459192</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1697550459192</updated>
-    </task>
-    <task id="LOCAL-00007" summary="less5_auth .env">
-      <option name="closed" value="true" />
-      <created>1697551265630</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1697551265630</updated>
-    </task>
-    <task id="LOCAL-00008" summary="less5_auth .env doesnt work(">
-      <option name="closed" value="true" />
-      <created>1697552090455</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1697552090455</updated>
-    </task>
-    <task id="LOCAL-00009" summary="less5_auth achieved">
-      <option name="closed" value="true" />
-      <created>1697577323215</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1697577323215</updated>
-    </task>
-    <task id="LOCAL-00010" summary=" do not forget to put .env in manage.py!">
-      <option name="closed" value="true" />
-      <created>1697578394781</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1697578394781</updated>
-    </task>
-    <task id="LOCAL-00011" summary="alt2 auth">
-      <option name="closed" value="true" />
-      <created>1697621290864</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1697621290864</updated>
-    </task>
-    <task id="LOCAL-00012" summary="alt2 auth">
-      <option name="closed" value="true" />
-      <created>1697621313730</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1697621313730</updated>
-    </task>
-    <task id="LOCAL-00013" summary="alt2 auth">
-      <option name="closed" value="true" />
-      <created>1697622717824</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1697622717824</updated>
-    </task>
-    <task id="LOCAL-00014" summary="alt2 auth">
-      <option name="closed" value="true" />
-      <created>1697666759312</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1697666759312</updated>
-    </task>
-    <task id="LOCAL-00015" summary=".env created">
-      <option name="closed" value="true" />
-      <created>1697695007922</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1697695007922</updated>
-    </task>
-    <task id="LOCAL-00016" summary=".env created">
-      <option name="closed" value="true" />
-      <created>1697695019629</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1697695019629</updated>
-    </task>
-    <task id="LOCAL-00017" summary=".env created">
-      <option name="closed" value="true" />
-      <created>1697695224968</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1697695224968</updated>
-    </task>
-    <task id="LOCAL-00018" summary=".env created">
-      <option name="closed" value="true" />
-      <created>1697695469866</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1697695469866</updated>
-    </task>
-    <task id="LOCAL-00019" summary="superuser created">
-      <option name="closed" value="true" />
-      <created>1697702860360</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1697702860360</updated>
-    </task>
-    <task id="LOCAL-00020" summary="do permissions">
-      <option name="closed" value="true" />
-      <created>1697723698140</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1697723698140</updated>
-    </task>
-    <task id="LOCAL-00021" summary="do permissions">
-      <option name="closed" value="true" />
-      <created>1697730190199</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1697730190199</updated>
-    </task>
-    <task id="LOCAL-00022" summary="do permissions">
-      <option name="closed" value="true" />
-      <created>1697741991960</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1697741991960</updated>
-    </task>
-    <task id="LOCAL-00023" summary="do images">
-      <option name="closed" value="true" />
-      <created>1697835813893</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1697835813894</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=".idea ignore" />
-    <MESSAGE value="master setup" />
-    <MESSAGE value="filters + validatots toDO" />
-    <MESSAGE value="continue" />
-    <MESSAGE value="setup +" />
-    <MESSAGE value="less5_auth" />
-    <MESSAGE value="less5_auth .env" />
-    <MESSAGE value="less5_auth .env doesnt work(" />
-    <MESSAGE value="less5_auth achieved" />
-    <MESSAGE value=" do not forget to put .env in manage.py!" />
-    <MESSAGE value="alt2 auth" />
-    <MESSAGE value=".env created" />
-    <MESSAGE value="superuser created" />
-    <MESSAGE value="do permissions" />
-    <MESSAGE value="do images" />
-    <option name="LAST_COMMIT_MESSAGE" value="do images" />
   </component>
 </project>

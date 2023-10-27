@@ -18,7 +18,6 @@ class UserSerializer(serializers.ModelSerializer):
             }
         }
 
-        @staticmethod
-        def create(**validated_data):
+        def create(self, validated_data):
             user = UserModel.objects.create_user(**validated_data)
             return user

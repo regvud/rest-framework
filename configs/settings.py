@@ -14,6 +14,8 @@ from pathlib import Path
 
 import dotenv
 
+from .additional_configs import *
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 dotenv.load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -35,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
+    'rest_framework_simplejwt.token_blacklist',
 
     # my_apps
     'apps.cars',

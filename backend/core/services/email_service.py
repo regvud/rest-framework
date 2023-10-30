@@ -2,7 +2,6 @@ import os
 
 from django.core.mail import EmailMultiAlternatives
 from django.template.loader import get_template
-from django.views import static
 
 
 class EmailService:

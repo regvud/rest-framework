@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CarsConfig(AppConfig):
+class TestEmailConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "apps.cars"
+    name = "apps.test_email"

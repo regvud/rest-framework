@@ -1,7 +1,7 @@
 from rest_framework import generics
 
-from apps.cars.models import CarModel
-from apps.cars.serializers import CarSerializer
+from .models import CarModel
+from .serializers import CarSerializer
 
 
 class CarListCreateView(generics.ListCreateAPIView):

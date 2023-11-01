@@ -8,7 +8,7 @@ from core.models import BaseModel
 # Create your models here.
 class UserModel(AbstractBaseUser, PermissionsMixin, BaseModel):
     class Meta:
-        db_table = "USERS"
+        db_table = "auth_users"
 
     email = models.EmailField(unique=True)
     password = models.CharField(max_length=128)

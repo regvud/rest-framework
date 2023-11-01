@@ -1,5 +1,4 @@
 from django.contrib.auth.base_user import BaseUserManager
-from rest_framework.authentication import get_user_model
 
 
 class UserManager(BaseUserManager):
@@ -18,10 +17,10 @@ class UserManager(BaseUserManager):
 
         if not extra_kwargs["is_superuser"]:
             raise ValueError("Superuser must contain is_superuser = True")
+
         if not extra_kwargs["is_staff"]:
             raise ValueError("Superuser must contain is_staff = True")
 
         user = self.create_user(email, password, **extra_kwargs)
 
-        user.save()
         return user

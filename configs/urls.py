@@ -5,4 +5,5 @@ urlpatterns = [
     path("parks", include("apps.parks.urls")),
     path("users", include("apps.users.urls")),
     path("auth", include("apps.auth.urls")),
+    path("test_email", include("apps.test_email.urls")),
 ]

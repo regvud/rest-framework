@@ -6,6 +6,7 @@ from rest_framework.generics import get_object_or_404
 from rest_framework_simplejwt.tokens import BlacklistMixin, Token
 
 from core.dataclasses.user_dataclass import UserDataclass
+from core.enums.action_token_enum import ActionTokenEnum
 
 UserModel = get_user_model()
 ActionTokenType = Type[BlacklistMixin | Token]
@@ -16,8 +17,13 @@ class ActionToken(BlacklistMixin, Token):
 
 
 class ActivateToken(ActionToken):
-    token_type = "activate"
-    lifetime = timedelta(minutes=30)
+    token_type = ActionTokenEnum.ACTIVATE.token_type
+    lifetime = ActionTokenEnum.ACTIVATE.lifetime
+
+
+class RecoveryToken(ActionToken):
+    token_type = ActionTokenEnum.RECOVERY.token_type
+    lifetime = ActionTokenEnum.RECOVERY.lifetime
 
 
 class JwtService:

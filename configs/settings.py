@@ -10,9 +10,11 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
+import datetime
 import os
 from pathlib import Path
 
+import pytz
 from django.conf.global_settings import APPEND_SLASH, AUTH_USER_MODEL
 
 from .extra_configs import *
@@ -114,7 +116,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+
+TIME_ZONE = "Europe/Kiev"
 
 USE_I18N = True
 

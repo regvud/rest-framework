@@ -34,7 +34,10 @@ class EmailService:
         )
 
     @classmethod
-    def recover_password(cls, email, data):
-        user = UserModel.objects.filter(user["email"] == email)
+    def recover_password(cls, user: UserDataclass):
         token = JwtService.create_token(user, RecoveryToken)
-        pass
+        url = f"http://localhost:3000/recover/token={token}"
+
+        cls.__send_email(
+            user.email, "recover_password.html", {"url": url}, "Recover Password letter"
+        )

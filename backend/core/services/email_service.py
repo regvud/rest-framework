@@ -1,14 +1,15 @@
 import os
 
+from configs.celery import app
+from core.dataclasses.user_dataclass import UserDataclass
+from core.services.jwt_service import ActivateToken, JwtService, RecoveryToken
 from django.core.mail import EmailMultiAlternatives
 from django.template.loader import get_template
 
-from apps.users.models import UserModel
-from core.dataclasses.user_dataclass import UserDataclass
-from core.services.jwt_service import ActivateToken, JwtService, RecoveryToken
-
 
 class EmailService:
+    @staticmethod
+    @app.task
     def __send_email(to: str, template_name: str, context: {}, subject=""):
         template = get_template(template_name)
         html_content = template.render(context)
@@ -38,6 +39,6 @@ class EmailService:
         token = JwtService.create_token(user, RecoveryToken)
         url = f"http://localhost:3000/recover/token={token}"
 
-        cls.__send_email(
+        cls.__send_email.delay(
             user.email, "recover_password.html", {"url": url}, "Recover Password letter"
         )

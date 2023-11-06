@@ -8,17 +8,35 @@ services:
       - ./backend:/app
     env_file:
       - .env
-    #    ports:
-    #      - "1234:8000"
+    ports:
+      - "8080:8000"
     restart: on-failure
     command: >
       sh -c "python manage.py wait_db && python manage.py runserver 0.0.0.0:8000"
+
   db:
     image: mysql:8
     volumes:
       - ./mysql:/var/lib/mysql
     ports:
       - "5555:3306"
+    env_file:
+      - .env
+    restart: on-failure
+
+  celery:
+    build:
+      context: .
+    volumes:
+      - ./backend:/app
+    env_file:
+      - .env
+    restart: on-failure
+    command: >
+      sh -c "celery -A configs worker -l info"
+
+  redis:
+    image: redis:alpine
     env_file:
       - .env
     restart: on-failure

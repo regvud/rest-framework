@@ -1,15 +1,14 @@
-from rest_framework import generics, status
-from rest_framework.response import Response
-
 from apps.cars.serializers import CarSerializer
 from apps.parks.serializers import ParkSerialiser
+from rest_framework import generics, status
+from rest_framework.response import Response
 
 from .models import ParkModel
 
 
-class ParkListView(generics.ListAPIView):
+class ParkListView(generics.ListCreateAPIView):
     queryset = ParkModel.objects.all()
-    serializer_class = ParkSerialiser
+    serializer_class = ParkSerialiser   
 
 
 class ParkRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):

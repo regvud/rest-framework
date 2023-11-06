@@ -17,6 +17,8 @@ redis = "^5.0.1"
 channels-redis = "^4.1.0"
 pillow = "^10.1.0"
 django-celery-results = "^2.5.1"
+daphne = "^4.0.0"
+djangochannelsrestframework = "^1.2.0"
 
 
 [build-system]

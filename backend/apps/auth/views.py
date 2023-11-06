@@ -1,13 +1,12 @@
-from django.shortcuts import get_object_or_404
-from rest_framework import generics, status
-from rest_framework.permissions import AllowAny, IsAuthenticated
-from rest_framework.response import Response
-
 from apps.auth.serializers import EmailSerializer, PasswordSerializer
 from apps.users.models import UserModel
 from apps.users.serializers import UserSerializer
 from core.services.email_service import EmailService
-from core.services.jwt_service import JwtService, RecoveryToken
+from core.services.jwt_service import JwtService, RecoveryToken, SocketToken
+from django.shortcuts import get_object_or_404
+from rest_framework import generics, status
+from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.response import Response
 
 
 class ShowMeView(generics.GenericAPIView):
@@ -56,3 +55,11 @@ class RecoverPasswordView(generics.GenericAPIView):
         user.save()
 
         return Response("password has been changed", status.HTTP_202_ACCEPTED)
+
+
+class SocketView(generics.GenericAPIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, *args, **kwargs):
+        token = JwtService.create_token(self.request.user, SocketToken)
+        return Response({"socket_token": str(token)}, status.HTTP_200_OK)

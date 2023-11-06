@@ -13,6 +13,11 @@ class ActionTokenEnum(Enum):
         timedelta(minutes=10),
     )
 
+    SOCKET = (
+        "socket",
+        timedelta(seconds=5),
+    )
+
     def __init__(self, token_type, lifetime) -> None:
         self.token_type = token_type
         self.lifetime = lifetime

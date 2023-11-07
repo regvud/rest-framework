@@ -18,6 +18,6 @@ class ActionTokenEnum(Enum):
         timedelta(seconds=5),
     )
 
-    def __init__(self, token_type, lifetime) -> None:
+    def __init__(self, token_type, lifetime):
         self.token_type = token_type
         self.lifetime = lifetime

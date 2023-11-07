@@ -1,12 +1,10 @@
-from datetime import timedelta
 from typing import Type
-
-from rest_framework.authentication import get_user_model
-from rest_framework.generics import get_object_or_404
-from rest_framework_simplejwt.tokens import BlacklistMixin, Token
 
 from core.dataclasses.user_dataclass import UserDataclass
 from core.enums.action_token_enum import ActionTokenEnum
+from rest_framework.authentication import get_user_model
+from rest_framework.generics import get_object_or_404
+from rest_framework_simplejwt.tokens import BlacklistMixin, Token
 
 UserModel = get_user_model()
 ActionTokenType = Type[BlacklistMixin | Token]

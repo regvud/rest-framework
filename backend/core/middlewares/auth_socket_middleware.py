@@ -1,7 +1,7 @@
 from channels.middleware import BaseMiddleware
 
 
-class AuthSocketMidfromdleware(BaseMiddleware):
+class AuthSocketMiddleware(BaseMiddleware):
     def __call__(self, scope, receive, send):
         query_token = dict(
             [

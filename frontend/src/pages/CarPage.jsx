@@ -1,17 +1,13 @@
-import React, { useEffect } from 'react';
 import { Cars } from '../components/CarComponent/Cars';
-import { carService } from '../services/carService';
 import { CarForm } from '../components/CarComponent/CarForm';
+import { useState } from 'react';
 
 const CarPage = () => {
-  useEffect(() => {
-    carService.getAll().then(({ data }) => console.log(data));
-  }, []);
-
+  const [refreshTrigger, setRefreshTrigger] = useState(null);
   return (
     <>
-      <CarForm />
-      {/* <Cars /> */}
+      <CarForm setRefreshTrigger={setRefreshTrigger} />
+      <Cars refreshTrigger={refreshTrigger} />
     </>
   );
 };

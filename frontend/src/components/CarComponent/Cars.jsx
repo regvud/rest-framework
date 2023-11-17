@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { carService } from '../../services/carService';
+import { Car } from './Car';
 
 const Cars = () => {
-    return (
-        <div>
-          <h1>Cars</h1>  
-        </div>
-    );
+  const [cars, setCars] = useState([]);
+
+  useEffect(() => {
+    carService.getAll(({ data }) => setCars(data));
+  }, []);
+
+  return (
+    <>
+      {cars.map((car) => (
+        <Car key={car.id} car={car} />
+      ))}
+    </>
+  );
 };
 
 export { Cars };

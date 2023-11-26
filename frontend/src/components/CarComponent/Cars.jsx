@@ -14,7 +14,7 @@ const Cars = ({ refreshTrigger }) => {
   console.log();
   return (
     <>
-      {cars.map((car) => (
+      {cars?.map((car) => (
         <Car key={car.id} car={car} />
       ))}
     </>
